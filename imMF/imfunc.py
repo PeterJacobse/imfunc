@@ -6,12 +6,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fftpack import fft2
 import numpy.fft as fft
-import cv2
+#import cv2
 import warnings
 from scipy.ndimage.filters import convolve
 from scipy import sparse
 from scipy.sparse.linalg import spsolve
 import time
+
+print("update")
 
 def smooth(x,window_len=11,window='flat'):  
     if window_len<3:
